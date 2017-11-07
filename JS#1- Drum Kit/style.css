@@ -1,0 +1,36 @@
+.outerBox {
+  background: url("images/drums2.jpg") #ffffff;
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keys-container {
+  height: 120px;
+  width: 1200px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.key {
+  height: 110px;
+  width: 110px;
+  border: 2px solid #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+  font-size: 24px;
+
+}
+
+.playing{
+  font-size: 25px;
+  font-weight: bold;
+  border: 3px solid yellow;
+}

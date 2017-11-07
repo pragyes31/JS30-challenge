@@ -1,5 +1,5 @@
 .outerBox {
-  background: url("images/drums2.jpg") #ffffff;
+  background: url("images/drums233.jpg") #321012;
   height: 100%;
   background-size: cover;
   display: flex;
@@ -9,7 +9,7 @@
 
 .keys-container {
   height: 120px;
-  width: 1200px;
+  width: 1400px;
   margin-bottom: 150px;
   display: flex;
   justify-content:space-around;
@@ -17,8 +17,8 @@
 }
 
 .key {
-  height: 110px;
-  width: 110px;
+  height: 140px;
+  width: 140px;
   border: 2px solid #fff;
   display: flex;
   flex-direction: column;
@@ -26,6 +26,7 @@
   align-items: center;
   color: orange;
   font-size: 24px;
+  cursor:pointer;
 
 }
 

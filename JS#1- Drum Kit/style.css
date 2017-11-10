@@ -1,37 +1,43 @@
+body,
+html {
+    margin: 0;
+    border: 0;
+}
+
 .outerBox {
-  background: url("images/drums233.jpg") #321012;
-  height: 100%;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background: url("images/drums233.jpg") #321012;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .keys-container {
-  height: 120px;
-  width: 1400px;
-  margin-bottom: 150px;
-  display: flex;
-  justify-content:space-around;
-  align-items: center;
+    height: 120px;
+    width: 1400px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .key {
-  height: 140px;
-  width: 140px;
-  border: 2px solid #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: orange;
-  font-size: 24px;
-  cursor:pointer;
+    height: 140px;
+    width: 140px;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    font-size: 24px;
+    cursor: pointer;
 
 }
 
-.playing{
-  font-size: 25px;
-  font-weight: bold;
-  border: 3px solid yellow;
+.playing {
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px solid yellow;
 }

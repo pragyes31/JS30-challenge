@@ -5,7 +5,7 @@ html {
 }
 
 .outerBox {
-    background: url("images/drums233.jpg") #321012;
+    background: url("images/drumsblack.png") #321012;
     height: 100%;
     background-size: cover;
     display: flex;
@@ -15,7 +15,7 @@ html {
 
 .keys-container {
     height: 120px;
-    width: 1400px;
+    width: 1600px;
     margin-bottom: 150px;
     display: flex;
     justify-content: space-around;
@@ -25,12 +25,12 @@ html {
 .key {
     height: 140px;
     width: 140px;
-    border: 1px solid #fff;
+    border: 1px solid #ff69b4;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: orange;
+    color: white;
     font-size: 24px;
     cursor: pointer;
 

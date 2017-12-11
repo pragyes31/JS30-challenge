@@ -1,0 +1,46 @@
+body,
+html {
+    margin: 0;
+    border: 0;
+}
+
+.outerbox {
+  width:100vw;
+  height:100vh;
+    display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.clock {
+  width:200px;
+  height:200px;
+  border: 10px solid black;
+  border-radius:50%;
+  position:relative;
+  padding:5px;
+  transform:translateY(3px); 
+} 
+
+.hand {
+  width:100px;
+  height:10px;
+  position:absolute;
+  top:50%;
+  transform:rotate(90deg);
+  transform-origin:100%;
+  transition: all 0.05s;
+  transition-timing-function:ease-in; 
+}
+.hour-hand {
+  background-color:blue;
+}
+
+.minute-hand {
+  background-color:red;
+}
+
+.second-hand {
+  background-color:green;
+  
+}

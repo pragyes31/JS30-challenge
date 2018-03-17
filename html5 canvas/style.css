@@ -32,5 +32,5 @@ html, body {
 }
 
 .slide-in {
-  transition: all 0.5s;
+    transition: all 0.5s;
 }
